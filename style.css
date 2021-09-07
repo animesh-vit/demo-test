@@ -1,0 +1,62 @@
+/* Selector {
+    Property : value;
+
+} */
+/* *{
+    text-align: center;
+} */
+body{
+
+    background-image: url(C:\\Users\\Dolas\\Downloads\\unsplash.jpg);
+    background-size: cover ;
+}
+#link{
+    font-size: 130%;
+    list-style: none;
+    display: inline-block;
+}
+#link :hover {
+    list-style: none;
+    display: inline-block;
+    text-align:center;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 130%;
+    font-family: 'Roboto Condensed', sans-serif;   
+}
+a {
+    color:blue;
+    text-size-adjust: 70px;
+}
+h1,h4,#deco,#download{
+    color:blueviolet;
+    background-color:aquamarine;
+    text-align:center;
+    border: 5px dashed rgb(141, 25, 4);
+    cursor: pointer;
+}
+
+#content{
+    color:rgb(190, 245, 41);
+    border: 5px solid palegreen;
+}
+#div2{
+    color:rgb(190, 245, 41);
+    border: 5px  dashed palegreen;
+    padding: 5px 20px 5px 20px;
+    margin: 20px 0px;
+
+}
+#download {
+    float: left;
+}
+#deco{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+    
+}
+footer{
+    clear: both;
+    text-align: center;
+}
